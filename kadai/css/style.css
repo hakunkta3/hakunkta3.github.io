@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* 基本レイアウト ここから↓ */
+@import url(common.css);
+body {
+  background-color: #ffffff;
+  color: #5f5039;
+  font-size: 87.5%;
+  line-height: 1.5;
+}
+header,nav, #breadcrumb, #contents, footer {
+  margin: 0 auto 0 auto;
+  width: 840px;
+}
+header h1 {
+  margin: 0 0 26px 0;
+  padding-top: 28px;
+  text-align: center;
+}
+nav ul {
+  overflow: hidden;
+  margin: 0 0 20px 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+nav ul li{
+  float: left;
+  width: 210px;
+}
+nav ul li a {
+  overflow: hidden;
+  display: block;
+  padding-top: 44px;
+  height: 0;
+}
+nav ul li#nav_concept a {
+  background-image: url(../images/nav1.png);
+}
+nav ul li#nav_plan a {
+  background-image: url(../images/nav2.png);
+}
+nav ul li#nav_fair a {
+  background-image: url(../images/nav3.png);
+}
+nav ul li#nav_contact a {
+  background-image: url(../images/nav4.png);
+}
+#contents {
+  overflow: hidden;
+}
+#main {
+  width: 600px;
+  margin: 0 auto 0 auto;
+}
+
+footer {
+  padding-top: 70px;
+}
+#main h1 {
+  margin: 0 0 0 0;
+  text-align: center;
+  padding: 35px 0 35px 0px;
+  font-size: 156.25%;
+  background-image: url(../images/bg_h1_head_02.png),url(../images/bg_h1_bottom_02.png);
+  background-repeat: repeat no-repeat, repeat no-repeat;
+  background-position: left top, left bottom;
+}
+#concept #nav_concept a,
+#plan #nav_plan a,
+#fair #nav_fair a,
+#contact #nav_contact a,
+nav ul li a:hover {
+  background-position: 0 -45px;
+}
+.bnr_inner a p img:hover {
+  opacity: 0.8;
+}
+/* 基本レイアウト ここまで↑ */
+
+/* トップページ ここから↓ */
+#news {
+  margin-top: 10px;
+}
+#news ul{
+  list-style-type: none;
+  padding-left: 0;
+  padding-bottom: 30px;
+}
+#news ul li{
+  padding: 20px 0 20px 175px;
+  border-bottom: 1px dotted #6c5f45;
+  color: #342300;
+  text-indent: -175px;
+}
+#news ul li time{
+  display: inline-block;
+  width: 175px;
+  font-weight: bold;
+  color: #6c5f45;
+  text-indent: 0;
+}
+/* トップページ ここまで↑ */
+
+/* 「こだわりの文具」ここから↓ */
+.concept_box{
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.image_right{
+  float: right;
+  margin-left: 25px;
+}
+.image_left{
+  float: left;
+  margin-right: 25px;
+}
+
+/* 「こだわりの文具」ここまで↑ */
+
+/* 「ブライダルフェア」ページ ここから↓ */
+.gallery_box {
+  overflow: hidden;
+}
+#bungu h1{
+  margin-bottom: 30px;
+}
+.gallery_box figure {
+  margin: 0 0 15px 0;
+  width: 300px;
+  float: left;
+}
+.gallery_box figure:first-child {
+  margin-left: 0;
+}
+.gallery_box:first-of-type {
+  margin-top: 30px;
+}
+.gallery_box figure figcaption {
+  padding: 5px 5px 5px 5px;
+}
+/* 「ブライダルフェア」ページ ここまで↑ */
+
+/* 「お問い合わせ」ページ ここから↓ */
+form p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+form p:nth-last-child(2){
+  margin-bottom: 7px
+}
+
+input[type="text"]{
+  width:600px;
+  height: 30px;
+}
+input[type="email"]{
+  width:600px;
+  height: 30px;
+}
+textarea{
+  width: 600px;
+  height: 115px;
+  overflow-y:scroll;
+}
+/* 「お問い合わせ」ページ ここまで↑ */
