@@ -34,16 +34,16 @@ nav ul li a {
   height: 0;
 }
 nav ul li#nav_concept a {
-  background-image: url(../images/nav1.png);
+  background-image: url(../images/nav1_2.png);
 }
 nav ul li#nav_plan a {
-  background-image: url(../images/nav2.png);
+  background-image: url(../images/nav2_2.png);
 }
 nav ul li#nav_fair a {
-  background-image: url(../images/nav3.png);
+  background-image: url(../images/nav3_2.png);
 }
 nav ul li#nav_contact a {
-  background-image: url(../images/nav4.png);
+  background-image: url(../images/nav4_2.png);
 }
 #contents {
   overflow: hidden;
